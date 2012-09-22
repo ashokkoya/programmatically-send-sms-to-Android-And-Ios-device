@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">zBfL2LIlYljwoDttklLhqduV5g1suqCx</property>
+    <property name="acs-oauth-key-production" type="string">TkDSRRbgtzajUrs47hGCGaH3UIntD7TP</property>
+    <property name="acs-api-key-production" type="string">qEfbF8vNB8nGyYNgDQPvq0gvs4NReK42</property>
+    <property name="acs-oauth-secret-development" type="string">TmbmRr7e9TvQ8zX9YtDgis2Z3ckpjiyZ</property>
+    <property name="acs-oauth-key-development" type="string">up9yUrjXL0xv4Zcc0Y1RW8RkuIA5TC2D</property>
+    <property name="acs-api-key-development" type="string">xgfFCFhyUH8XBfo362oyemzZYZ4LGlmv</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.0.GA</sdk-version>
+    <id>com.Anubavam.Events</id>
+    <name>Events</name>
+    <version>1.0</version>
+    <publisher>sivakumar</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 by sivakumar</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>a1d50e39-4b2a-4d3c-ac7c-4708958f2df0</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <tool-api-level>8</tool-api-level>
+        <manifest android:installLocation="preferExternal">
+            <uses-sdk android:minSdkVersion="7"/>
+            <supports-screens android:anyDensity="false"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.1.0">ti.cloud</module>
+    	<module version="0.3" platform="iphone">com.omorandi</module> 
+    </modules>
+</ti:app>

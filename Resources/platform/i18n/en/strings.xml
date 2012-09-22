@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="cancel">Cancel</string>
+	<string name="done">Done</string>
+	<string name="update">Update</string>
+	<string name="email">Email</string>
+	<string name="phone">Phone Number</string>
+	<string name="mobile">Mobile Number</string>
+	<string name="libLocation">Preferred Library Locations</string>
+	<string name="langPreferences">Language Preferences</string>
+	<string name="contactme">Communicate with me by</string>
+	<string name="historyrecored">Check-out History Recorded</string>
+	<string name="verifypin">Verify PIN</string>
+	
+	<string name="pushnotify">Push notifications</string>
+	<string name="networkError">Network Error</string>
+	
+	
+	<string name="changepin">Change PIN</string>
+	<string name="updateinfo">Update info</string>
+	<string name="currentpin">Current PIN</string>
+	<string name="confirmpin">Retype New PIN</string>
+	<string name="newpin">New PIN</string>
+	<string name="loginfailed">Sorry, unrecongized card #/username or PIN</string>
+	
+	
+</resources>
